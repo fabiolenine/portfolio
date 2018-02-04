@@ -13,7 +13,7 @@ const app               = express();
 const http              = require('http');
 const bodyParser        = require('body-parser');
 
-http.createServer(app).listen(80);
+http.createServer(app).listen(8080);
 
 app.use(bodyParser.json());							          //for parsing application/json
 app.use(bodyParser.urlencoded({extended: true}));	// for parsing application/x-www-form-urlencoded
@@ -30,6 +30,7 @@ app.set('views','views');
 app.disable('x-powered-by');
 
 // Routes
-// require('./routes/routerportfolio.js')(app , detalheemails);
+require('./routes/routerportfolio.js')(app //, detalheemails
+);
 
 module.exports = app;
