@@ -13,7 +13,7 @@ const app               = express();
 const http              = require('http');
 const bodyParser        = require('body-parser');
 
-http.createServer(app).listen(8080);
+http.createServer(app).listen(80);
 
 app.use(bodyParser.json());							          //for parsing application/json
 app.use(bodyParser.urlencoded({extended: true}));	// for parsing application/x-www-form-urlencoded
