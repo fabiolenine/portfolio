@@ -8,9 +8,9 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1"/>
     	<meta name="keywords" content="portfolio, estamparia, confecção"/>
 
-        <link rel="stylesheet" type="text/css"  href= "http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" >
-        <link rel="stylesheet" type="text/css"  href="https://s3-us-west-2.amazonaws.com/ichose/site/hotsite/css/normalize.min.css" >
-        <link rel="stylesheet" type="text/css"  href="https://s3-us-west-2.amazonaws.com/ichose/site/hotsite/css/verao2015.css" >
+        <link rel="stylesheet" type="text/css"  href= "/css/bootstrap.min.css" >
+        <link rel="stylesheet" type="text/css"  href="/css/normalize.min.css" >
+        <link rel="stylesheet" type="text/css"  href="/css/verao2015.css" >
         <title>Portfolio</title>
     </head>
     <body>
@@ -21,8 +21,8 @@
                        preload
                        muted
                        id="verao2015">
-					<source src="https://s3-us-west-2.amazonaws.com/ichose/site/hotsite/img/verao2015HD.webm" type="video/webm">
-					<source src="https://s3-us-west-2.amazonaws.com/ichose/site/hotsite/img/verao2015SD.mp4"  type="video/mp4">
+					<source src="/img/Motocross.webm" type="video/webm">
+					<source src="/img/Motocross.mp4"  type="video/mp4">
 				</video>
 			</div><!-- end video-container -->
 		</div><!-- end .header-unit -->
@@ -34,66 +34,15 @@
 			    <div class="col-md-4 column" id="glass">
     				<br>
     				<p class="text-center">
-						<img src="https://s3-us-west-2.amazonaws.com/ichose/site/hotsite/img/logo_desc.png" class="img-rounded" />
+						<img src="/img/logo.png" class="img-rounded" style="max-height: 50%; max-width: 50%;"/>
 					</p>
 					<br>
     			</div>
 				<div class="col-md-4 column">
 				</div>
-            </div>
-			<div class="row-fluid clearfix">
-				<div class="col-md-4 column">
-				</div>
-			    <div class="col-md-4 column" id="glass">
-			 		<br>
-			        <h3>Nunca foi tão fácil se divertir.</h3>
-			        <h4>Quer ser exclusivo e descobrir como?</h4>
-		            <form action="" method="post">
-		                <div class="input-group">
-		                    <input type         = "email"
-                                   id           = "user.cdUser"
-                                   class        = "form-control"
-                                   placeholder  = "digite o seu email aqui"
-                                   required     = ""
-                                   autofocus
-                                   ng-model     = "envio.email">
-      						<span class="input-group-btn">
-        						<button id        = "btSubmit"
-                                        class     = "btn btn-large btn-primary"
-                                        type      = "button"
-                                        disabled  = "disabled"
-                                        ng-click  = "enviar()">
-                                        Enviar
-                                </button>
-      						</span>
-		                </div>
-                        <div class      = "alert alert-success alert-dismissible"
-                             role       = "alert"
-                             ng-show    = "show.sucesso">
-                             <button
-                                     type           = "button"
-                                     class          = "close"
-                                     data-dismiss   = "alert">
-                                 <span aria-hidden  = "true">&times;</span>
-                                 <span class="sr-only">Close</span>
-                              </button>
-                              <h4>Obrigado, foi enviado um e-mail para confirmação.</h4>
-                        </div>
-                        <div class      = "alert alert-warning alert-dismissible"
-                             role       = "alert"
-                             ng-hide    = "show.alerta">
-                             <button
-                                     type           = "button"
-                                     class          = "close"
-                                     data-dismiss   = "alert">
-                                 <span aria-hidden  = "true">&times;</span>
-                                 <span class="sr-only">Close</span>
-                             </button>
-                             <h4>Opss, algo está errado, digite novamente outro e-mail.</h4>
-                        </div>
-                        <br/>
-		            </form>
-		        </div>
+      </div>
+      <br/>
+		    </div>
 				<div class="col-md-4 column">
 			    </div>
             </div>
@@ -104,7 +53,7 @@
             <strong>Rede Social</strong>
             <li>
                 <a href="http://fb.me/portfolioestamparia" target="_blank">
-                    <img src="https://s3-us-west-2.amazonaws.com/ichose/site/hotsite/img/facebook.png" />
+                    <img src="/img/facebook.png" />
                 </a>
             </li>
         </ul>
@@ -114,8 +63,7 @@
 
     <script src="http://code.jquery.com/jquery-2.1.0.js"></script>
 	  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js" ></script>
-    <script src="https://s3-us-west-2.amazonaws.com/ichose/site/provider/js/validaemail.js"></script>
-    <script src="https://s3-us-west-2.amazonaws.com/ichose/site/hotsite/js/verao2015.js"></script>
+    <script src="/javascript/verao2015.js"></script>
 
     <!-- Google Universal Analytics
     ===============================
